@@ -2,7 +2,8 @@
   <div class="home">
     <h1>home</h1>
     <CustomText>selam dunya</CustomText>
-    <CustomText tag="p">selam dunya</CustomText>
+    <CustomText tag="p">merhaba dunya</CustomText>
+    <CustomText tag="b" size="xsmall">naber dunya</CustomText>
   </div>
 </template>
 

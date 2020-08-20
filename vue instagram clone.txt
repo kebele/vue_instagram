@@ -12,4 +12,6 @@ VUE INSTAGRAM CLONE AÇIKLAMALAR
 
 * postcss için gerekli paketleri yüklemeliyiz, postcss-nested ve postcss custom-media gibi
 
-* Text.vue oluşturduk, name verdik, props gelecek dedik ve tag ını component olarak oluşturduk ve bunu dinamik yaptık, yani tag da gelecek ayrıca size ı da props olarak ayarladık, dimanik olarak class a verdik ve validator koyduk, bunu da vuejs.org dan aldık, bunu Home.vue ya import edip test edelim
+* Text.vue oluşturduk, name verdik, props gelecek dedik ve tag ını component olarak oluşturduk ve bunu dinamik yaptık, yani tag da gelecek ayrıca size ı da props olarak ayarladık, dimanik olarak class a verdik ve validator koyduk, bunu da vuejs.org dan aldık, bunu Home.vue ya import edip test edelim, CustomText.vue yu nasıl kullandığımıza dikkat, 
+
+* css dosyamızıda main.js e import edelim, 
