@@ -1,0 +1,13 @@
+- [] vue cli ile kurulum
+- [] css altyapısı ve tipografi, svg iconlarının hazırlanması
+- [] sayfaların oluşturulması, master-page
+- [] header tasarımı ve anasayfa için layout
+- [] anasayfadaki stories alanı, flickty slider
+- [] ansayfadaki post componenti
+- [] anasayfa için api ve infinite-scroll
+- [] yorum göndr için api ve implement
+- [] options modal comp ve animasyon
+- [] keşfet için api ve layout tasarımı
+- [] post modal comp ve keşfet sayfasına implemeti
+- [] profil sayfası ve sekmeler için route ayarları
+
