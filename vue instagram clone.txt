@@ -1,0 +1,13 @@
+VUE INSTAGRAM CLONE AÇIKLAMALAR
+
+* vue cli kurulumu npm install -g @vue/cli
+
+* proje kurulumu vue create instagram-clone 
+
+* kurulumda manuel olarak router, vuex vs kurduk, böyl olunca pek fazla nuxt ile başlamaya gerek kalmadı
+
+* router da index.js de home ve about un dahil edilmesine dikkat, home normal yolla dahil edilmiş ama about bir func ile dahil ediliyor, bu şekilde yapılınca App.vue çalışırken en başta about u da getirmiyor, about path ine tıklayınca/girince about u dahil ediyor böyle bir kullanımda var, buna code splitting denir, mesela home a illa girer kullanıcı ama about a girmek istemeyebilir, bunun sebebi
+
+* postCss dosyasını hazırlayalım ve projee dahil edelim bunun nasıl yapılacağı vue cli docs da var
+
+* 
