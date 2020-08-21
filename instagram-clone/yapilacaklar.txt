@@ -1,5 +1,5 @@
-- [] vue cli ile kurulum
-- [] css altyapısı ve tipografi, svg iconlarının hazırlanması
+- [x] vue cli ile kurulum
+- [x] css altyapısı ve tipografi, svg iconlarının hazırlanması
 - [] sayfaların oluşturulması, master-page
 - [] header tasarımı ve anasayfa için layout
 - [] anasayfadaki stories alanı, flickty slider

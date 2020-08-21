@@ -12,6 +12,15 @@ VUE INSTAGRAM CLONE AÇIKLAMALAR
 
 * postcss için gerekli paketleri yüklemeliyiz, postcss-nested ve postcss custom-media gibi
 
-* Text.vue oluşturduk, name verdik, props gelecek dedik ve tag ını component olarak oluşturduk ve bunu dinamik yaptık, yani tag da gelecek ayrıca size ı da props olarak ayarladık, dimanik olarak class a verdik ve validator koyduk, bunu da vuejs.org dan aldık, bunu Home.vue ya import edip test edelim, CustomText.vue yu nasıl kullandığımıza dikkat, 
+* tipografi için CustomText.vue oluşturduk, name verdik, props gelecek dedik ve tag ını component olarak oluşturduk ve bunu dinamik yaptık, yani tag da gelecek ayrıca size ı da props olarak ayarladık, dimanik olarak class a verdik ve validator koyduk, bunu da vuejs.org dan aldık, bunu Home.vue ya import edip test edelim, CustomText.vue yu nasıl kullandığımıza dikkat, 
 
 * css dosyamızıda main.js e import edelim, 
+
+* svg iconların hazırlanması, 
+https://vue-svg-loader.js.org/#example
+burada bir paket var bunun yaptığı svg dosyalrını sanki vue componentiymiş gibi hazırlayıp kullanabilmemizi sağlıyor, bunun için bazı kurulumlar yapmamız lazım, onarı yapalım, server ı dudurup gerekli dosyaları projeye ekleyelim
+npm i -D vue-svg-loader vue-template-compiler
+
+kurulum sonrası konfigurasyonunu yapalım, biz projeyi vue CLI ile kurduğumuz için buna göre yapalım, 
+bunun için proje içine vue.config.js isimli bir doya oluşturup sayfadaki kodlarını bunun içine koyacağız, bunu yaptıktan sonra src içinde icons adında bir folder > home.svg > içine svg yi yapıştıralım, ve projeyi yeniden ayaga kaldıralım, npm run serve ile
+gerekli import ve components e ekleme sonrası svg yi normal comp gibi kullandık başarılı, width ve height da kullanabiliriz, 
