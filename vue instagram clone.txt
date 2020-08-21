@@ -24,3 +24,5 @@ npm i -D vue-svg-loader vue-template-compiler
 kurulum sonrası konfigurasyonunu yapalım, biz projeyi vue CLI ile kurduğumuz için buna göre yapalım, 
 bunun için proje içine vue.config.js isimli bir doya oluşturup sayfadaki kodlarını bunun içine koyacağız, bunu yaptıktan sonra src içinde icons adında bir folder > home.svg > içine svg yi yapıştıralım, ve projeyi yeniden ayaga kaldıralım, npm run serve ile
 gerekli import ve components e ekleme sonrası svg yi normal comp gibi kullandık başarılı, width ve height da kullanabiliriz, 
+
+* sayfaları yapalım, about.vue silelim, router dan da path ini yoruma alalım,views in altına home folder Home.vue yuda index.vue yapıp onun içine, 
