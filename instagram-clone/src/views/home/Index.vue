@@ -14,7 +14,7 @@ import CustomText from "@/components/CustomText"
 import IconHome from '@/icons/home.svg'
 
 export default {
-  name: "Index",
+  name: "Home",
   components : {
     CustomText,
     IconHome

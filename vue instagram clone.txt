@@ -25,4 +25,27 @@ kurulum sonrası konfigurasyonunu yapalım, biz projeyi vue CLI ile kurduğumuz 
 bunun için proje içine vue.config.js isimli bir doya oluşturup sayfadaki kodlarını bunun içine koyacağız, bunu yaptıktan sonra src içinde icons adında bir folder > home.svg > içine svg yi yapıştıralım, ve projeyi yeniden ayaga kaldıralım, npm run serve ile
 gerekli import ve components e ekleme sonrası svg yi normal comp gibi kullandık başarılı, width ve height da kullanabiliriz, 
 
-* sayfaları yapalım, about.vue silelim, router dan da path ini yoruma alalım,views in altına home folder Home.vue yuda index.vue yapıp onun içine, 
+* sayfaları yapalım, about.vue silelim, router dan da path ini yoruma alalım,views in altına home folder Home.vue yuda index.vue yapıp onun içine, benzer şey profile > 
+Igtv.vue, Index.vue, Post.vue, Save.vue, Tag.vue hazırladık, 
+
+* şimdi genel çalışma nasıl, App.vue uygulamayı alıyor ekrana basıyor, ekranda linkler var, mesela about a tıklayınca tıklayınca router dan adresi alıyor o adresteki sayfayı getirip <router-view/> a basıyor, şimdi aynı sistemi profile sayfası altında yapacağız, router a gidelim, "/profile" pathini hazırladıktan sonra bunun altında bunun child ları olacak onları ayarlayalım, normal path in altında children lar olacaksa onları da children : [{path:..., name : ..}, {...}, {...}] şeklinde aynı şekilde ayarlayacağız, koda bak, 
+
+* profile daki linkleri ayarlayalım; 
+    <router-link to="/profile/post">Post</router-link> 
+
+* router ayartlarınıda aşağıdaki şekilde yapacağız  {
+        path: "igtv",
+        name: "ProfileIGTV",
+        component: () =>
+          import(/* webpackChunkName: "profile" */ "../views/profile/igtv.vue"),
+      },
+
+* explore > index.js yapalım ve direct > ... yapalım, sayfa kasörleri hazır, profile > sayfa yapıları hazır, App.vue da menuleri yapalım,
+    <router-link to="/">Home</router-link> |
+      <!-- <router-link to="/about">About</router-link> -->
+      <router-link to="/direct">direct</router-link>
+      <router-link to="/explore">Explore</router-link>
+      <router-link to="/profile">Profile</router-link>
+ve router da ayarlamayı yapalım, 
+
+* master-page hazırlayalım, master-page sayfalar değişse bile instagramdaki yukarıdaki kısım değişmiyor, bu, 
