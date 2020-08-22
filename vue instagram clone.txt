@@ -48,4 +48,4 @@ Igtv.vue, Index.vue, Post.vue, Save.vue, Tag.vue hazırladık,
       <router-link to="/profile">Profile</router-link>
 ve router da ayarlamayı yapalım, 
 
-* master-page hazırlayalım, master-page sayfalar değişse bile instagramdaki yukarıdaki kısım değişmiyor, bu, 
+* master-page hazırlayalım, master-page sayfalar değişse bile instagramdaki yukarıdaki kısım değişmiyor, bu, aslında ilk master-page imiz bu anlamda App.vue, components > Header.vue yapalım ve App.vue içindeki kısmı oraya Header olarak alalım, bunuda Header.vue içine koyalım ve bunu App.vue içinden çağıralım, 
