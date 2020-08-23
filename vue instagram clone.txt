@@ -54,3 +54,5 @@ ve router da ayarlamayı yapalım,
 
 * bir Container.vue yapacağız ve Header içini container içne alacağız, Container.vue da sadece containber style ve <slot/> var, bunu Header.vue içine import edip <Container> ... </Container> içine normalde Header.vue içindekileri koyacağız,
  şimdi iconlarıda import edelim, şu anda hem iconlar hemde fill durumları ekranda bunu şarta bağlayacağız, buun için v-if=""
+
+ * mobil tarafı yapalım, mobil  ekranda search ve navigation gizlenecek, 

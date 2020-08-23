@@ -1,12 +1,15 @@
 <template>
   <header class="header">
     <Container class="header-inner">
+      <!-- logo -->
       <router-link class="logo" to="/">instagram</router-link>
       <!-- <router-link to="/">Home</router-link>  -->
 
+<!-- search -->
       <form class="search">
         <input type="text" placeholder="search" />
       </form>
+      <!-- navigation -->
       <nav class="navigation">
         <router-link to="/">
           <IconHomeFill v-if="$route.name === 'Home'"/>
@@ -54,22 +57,36 @@ export default {
 <style scoped>
 .header {
   /* background-color: yellow; */
+  z-index: 90;
+  position: fixed;
+  left: 0;right: 0;top: 0;
+  background-color: white;
   border-bottom : 1px solid rgb(var(--b6a));  
   }
 
 .header-inner {
-    height: 60px;
-  display: grid;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+  @media (--t){
+    display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  }
 }
 .logo{
     font-size: 1.6rem;
     font-weight: bold;
 }
 .search{
-    text-align: center;    
-}
+  display: none;
+
+  @media (--t){
+    display : block;
+     text-align: center;    
+
 input{
     width: 215px;
     height: 28px;
@@ -80,14 +97,35 @@ input{
     padding-right: 20px;
 }
 
-
-.navigation{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;    
+  }
 }
 
-.navigation a{
+.navigation{
+  z-index: 90;
+  position: fixed;
+  left: 0;
+  right: 0;bottom: 0;
+  background-color: white;
+  border-top : 1px solid rgb(var(--b6a));
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  @media (--t){
+    /* position u staticleştir, left,right vs değerlerinin hiç birini okumaz */
+    height: auto;
+    border : 0;
+    position: static;
+    /* display: flex; */
+    justify-content: flex-end;
+    
+    a{
         margin-left: 20px;
-    }
+    } 
+  }
+     
+}
+
+
 </style>
