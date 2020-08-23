@@ -1,7 +1,8 @@
 - [x] vue cli ile kurulum
 - [x] css altyapısı ve tipografi, svg iconlarının hazırlanması
 - [x] sayfaların oluşturulması, master-page
-- [] header tasarımı ve anasayfa için layout
+- [x] header tasarımı ve anasayfa için layout
+- [x] demo sayfası için vercel deploy
 - [] anasayfadaki stories alanı, flickty slider
 - [] ansayfadaki post componenti
 - [] anasayfa için api ve infinite-scroll

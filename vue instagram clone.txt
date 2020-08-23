@@ -56,3 +56,5 @@ ve router da ayarlamayı yapalım,
  şimdi iconlarıda import edelim, şu anda hem iconlar hemde fill durumları ekranda bunu şarta bağlayacağız, buun için v-if=""
 
  * mobil tarafı yapalım, mobil  ekranda search ve navigation gizlenecek, 
+
+ * anasayfa için layout, 
