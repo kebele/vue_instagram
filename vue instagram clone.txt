@@ -50,4 +50,7 @@ ve router da ayarlamayı yapalım,
 
 * master-page hazırlayalım, master-page sayfalar değişse bile instagramdaki yukarıdaki kısım değişmiyor, bu, aslında ilk master-page imiz bu anlamda App.vue, components > Header.vue yapalım ve App.vue içindeki kısmı oraya Header olarak alalım, bunuda Header.vue içine koyalım ve bunu App.vue içinden çağıralım, ikinci master page imizde views >profile>index.vue , 
 
-* header tasarımı, anasayfa için layout oluşturma, 
+* header tasarımı, anasayfa için layout oluşturma, instagramda eğer responsizve menude ilk girişte telefon seçersek farlı bir header muhtemelen farklı bir app geliyor, normal tarayıcıdan girilince farklı geliyor buna dikkat, hazırda bir header yapmıştık bunu düzenleyelim,
+
+* bir Container.vue yapacağız ve Header içini container içne alacağız, Container.vue da sadece containber style ve <slot/> var, bunu Header.vue içine import edip <Container> ... </Container> içine normalde Header.vue içindekileri koyacağız,
+ şimdi iconlarıda import edelim, şu anda hem iconlar hemde fill durumları ekranda bunu şarta bağlayacağız, buun için v-if=""
