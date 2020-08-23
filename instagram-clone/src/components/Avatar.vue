@@ -28,7 +28,7 @@ export default {
   display: inline-flex;
   padding: 3px;
   border-radius: 999px;
-  background : 
+  background : yellow;
   img {
     border-radius: inherit;
     border : 2px solid white;
