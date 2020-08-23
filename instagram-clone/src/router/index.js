@@ -41,25 +41,25 @@ const routes = [
         path: "",
         name: "ProfilePost",
         component: () =>
-          import(/* webpackChunkName: "profile" */ "../views/profile/post.vue"),
+          import(/* webpackChunkName: "profile" */ "../views/profile/post"),
       },
       {
         path: "igtv",
         name: "ProfileIGTV",
         component: () =>
-          import(/* webpackChunkName: "profile" */ "../views/profile/igtv.vue"),
+          import(/* webpackChunkName: "profile" */ "../views/profile/igtv"),
       },
       {
         path: "save",
         name: "ProfileSave",
         component: () =>
-          import(/* webpackChunkName: "profile" */ "../views/profile/save.vue"),
+          import(/* webpackChunkName: "profile" */ "../views/profile/save"),
       },
       {
         path: "tag",
         name: "ProfileTag",
         component: () =>
-          import(/* webpackChunkName: "profile" */ "../views/profile/tag.vue"),
+          import(/* webpackChunkName: "profile" */ "../views/profile/tag"),
       },
     ],
   },
