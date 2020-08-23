@@ -58,3 +58,5 @@ ve router da ayarlamayı yapalım,
  * mobil tarafı yapalım, mobil  ekranda search ve navigation gizlenecek, 
 
  * anasayfa için layout, 
+
+ * aasayfada bir post un kart tasarımı, profil fotosuyla başlayalım, 
