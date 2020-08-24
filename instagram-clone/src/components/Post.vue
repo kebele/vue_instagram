@@ -121,7 +121,7 @@ export default {
         align-items: center;
 
         button {
-            margin-left: 16px;
+            margin-right: 16px;
         }
 
         .action-save{
