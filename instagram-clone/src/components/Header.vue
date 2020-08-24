@@ -26,7 +26,7 @@
             <IconExplore v-else></IconExplore>
         </router-link>
         <router-link to="/profile">
-          <Avatar size="26"></Avatar>
+          <Avatar size=26></Avatar>
         </router-link>
       </nav>
     </Container>
