@@ -29,7 +29,20 @@
     </div>
 
       <!-- action buttons -->
-
+<div class="action-buttons">
+    <button type="button">
+                <IconLike/>
+            </button>
+    <button type="button">
+                <IconComment/>
+            </button>
+    <button type="button">
+                <IconDirect/>
+            </button>
+    <button class="action-save" type="button">
+                <IconSave/>
+            </button>
+</div>
 
 
       <!-- view count -->
@@ -52,12 +65,20 @@
 import CustomText from '@/components/CustomText'
 import Avatar from '@/components/Avatar'
 import IconMore from '@/icons/more.svg' 
+import IconLike from '@/icons/like.svg' 
+import IconComment from '@/icons/comment.svg' 
+import IconDirect from '@/icons/direct.svg' 
+import IconSave from '@/icons/save.svg' 
 export default {
     name : "Post",
     components : {
         Avatar,
         CustomText,
         IconMore,
+        IconLike,
+        IconComment,
+        IconDirect,
+        IconSave,
 
     }
 }
@@ -70,6 +91,8 @@ export default {
     }
     
     .header{
+        padding-left: 16px;
+        padding-right: 16px;
         height: 60px;
         display: flex;
         align-items: center;
@@ -86,4 +109,21 @@ export default {
             margin-left: auto;
         }
     }
+
+        .action-buttons{
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+
+        button {
+            margin-left: 16px;
+        }
+
+        .action-save{
+            margin-left: auto;
+            margin-right: 0;
+        }
+        }
 </style>
