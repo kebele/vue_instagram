@@ -26,9 +26,9 @@ export default {
 <style lang="postcss" scoped>
 .avatar {
   display: inline-flex;
-  padding: 3px;
+  padding: 2px;
   border-radius: 999px;
-  background : yellow;
+  background : linear-gradient(90deg, rgba(184,63,140,1) 5%, rgba(9,9,121,1) 43%, rgba(255,0,17,1) 90%);
   img {
     border-radius: inherit;
     border : 2px solid white;

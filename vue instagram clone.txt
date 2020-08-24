@@ -59,4 +59,6 @@ ve router da ayarlamayı yapalım,
 
  * anasayfa için layout, 
 
- * aasayfada bir post un kart tasarımı, profil fotosuyla başlayalım, 
+ * aasayfada bir post un kart tasarımı, profil fotosuyla başlayalım, Avatar.vue yaptık ve bunu ilfili yerlere koyduk, css ne şekilde düzenledik, koda bak, 
+
+ * kartı yapmaya başlayalım, Post.vue yu components içinde oluşturulalımi 

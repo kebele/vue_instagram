@@ -25,7 +25,9 @@
             <IconExploreFill v-if="$route.name === 'Explore'"></IconExploreFill>
             <IconExplore v-else></IconExplore>
         </router-link>
-        <router-link to="/profile">profile</router-link>
+        <router-link to="/profile">
+          <Avatar size="26"></Avatar>
+        </router-link>
       </nav>
     </Container>
   </header>
@@ -38,6 +40,7 @@ import IconDirect from "@/icons/direct.svg";
 import IconDirectFill from "@/icons/direct-fill.svg";
 import IconExplore from "@/icons/explore.svg";
 import IconExploreFill from "@/icons/explore-fill.svg";
+import Avatar from '@/components/Avatar';
 import Container from "@/components/Container";
 
 export default {
@@ -49,6 +52,7 @@ export default {
     IconDirectFill,
     IconExplore,
     IconExploreFill,
+    Avatar,
     Container,
   },
 };
